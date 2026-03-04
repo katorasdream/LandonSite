@@ -39,8 +39,8 @@ body {
   text-align: center;
   z-index: 1000;
 
-  /* Glass effect */
-  background: rgba(183, 227, 255, 0.35); /* baby blue */
+  /* glass effect */
+  background: rgba(183, 227, 255, 0.35);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 
@@ -56,13 +56,13 @@ body {
 }
 
 /* =========================
-   Content Layout
+   Center Content
 ========================= */
 .content {
   min-height: calc(100vh - 80px);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 /* =========================
